@@ -1,0 +1,5 @@
+
+gazebo:
+    #!/usr/bin/env bash
+    source "{{justfile_directory()}}/devel/setup.bash" \
+    && roslaunch darwin_description gazebo.launch
