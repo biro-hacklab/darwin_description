@@ -978,11 +978,10 @@
   </gazebo>
   <gazebo reference="MP_ANKLE2_L">
     <material>Gazebo/Grey</material>
-    <mu1>9000</mu1>
-    <mu2>9000</mu2>
-    <kp>1000000.0</kp>
-    <kd>1000.0</kd>
-    <maxVel>0.0</maxVel>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>300000.0</kp>
+    <kd>50.0</kd>
     <minDepth>0.001</minDepth>
     <maxContacts>100</maxContacts>
   </gazebo>
@@ -1003,11 +1002,10 @@
   </gazebo>
   <gazebo reference="MP_ANKLE2_R">
     <material>Gazebo/Grey</material>
-    <mu1>9000</mu1>
-    <mu2>9000</mu2>
-    <kp>1000000.0</kp>
-    <kd>1000.0</kd>
-    <maxVel>0.0</maxVel>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>300000.0</kp>
+    <kd>50.0</kd>
     <minDepth>0.001</minDepth>
     <maxContacts>100</maxContacts>
   </gazebo>
