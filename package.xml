@@ -10,6 +10,8 @@
   <author email="pc@humarobotics.com">Philippe Capdepuy</author>
   <author email="eriol@mornie.org">Daniele Tricoli</author>
   <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>effort_controllers</run_depend>
+  <run_depend>hector_gazebo</run_depend>
   <export>
   </export>
 </package>

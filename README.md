@@ -34,4 +34,8 @@ wstool merge -t src https://raw.githubusercontent.com/eriol/darwin_description/m
 wstool update -t src
 ```
 
-You may need to install the hector_gazebo ROS package.
+Install the packaged ROS dependencies:
+
+```
+sudo apt install ros-noetic-hector-gazebo ros-noetic-effort-controllers
+```
